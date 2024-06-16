@@ -40,7 +40,9 @@ int main() {
 
 // Пустая функция для умножения
 void multiply(double A, double B) {
-    // Реализация будет добавлена позжеe
+     double result = A * B;
+     cout << "Результат умножения: " << result << endl;
+   
 }
 
 // Пустая функция для деления
