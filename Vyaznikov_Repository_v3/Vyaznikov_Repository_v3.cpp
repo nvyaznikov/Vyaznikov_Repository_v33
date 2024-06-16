@@ -47,7 +47,13 @@ void multiply(double A, double B) {
 
 // Пустая функция для деления
 void divide(double A, double B) {
-    // Реализация будет добавлена позже
+    if (B != 0) {
+        double result = A / B;
+        cout << "Результат деления: " << result << endl;
+    }
+    else {
+        cout << "Ошибка: деление на ноль!" << endl;
+    }
 }
 
 void inputValues(double& A, double& B) {
