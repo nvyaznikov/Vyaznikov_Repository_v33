@@ -47,3 +47,10 @@ void multiply(double A, double B) {
 void divide(double A, double B) {
     // Реализация будет добавлена позже
 }
+
+void inputValues(double& A, double& B) {
+    cout << "Введите A: ";
+    cin >> A;
+    cout << "Введите B: ";
+    cin >> B;
+}
